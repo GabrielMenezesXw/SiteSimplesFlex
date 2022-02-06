@@ -1,0 +1,80 @@
+* {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 28;
+}
+
+html,
+body {
+
+    height: 100vh;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3 {
+    max-width: 60ch;
+    margin: 20px 0 30px 0;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    max-width: 60ch;
+    line-height: 30px;
+}
+
+#site {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+}
+
+#botao {
+    background-color: rgb(138, 44, 44);
+    border-radius: 40%;
+    border-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+header {
+    background-color: rgb(138, 44, 44);
+    color: white;
+    text-align: center;
+    font-size: 28px
+}
+
+main {
+    font-size: 36px;
+    color: black;
+}
+
+footer {
+    background-color: rgb(138, 44, 44);
+    color: white;
+    text-align: center;
+    font-size: 28px
+}
+
+#contato {    
+    font-size: 30;
+    flex: auto;
+    justify-content: center;
+}
